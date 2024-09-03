@@ -1,9 +1,11 @@
 ﻿using Iguaman.Models.Cawangan;
 using Iguaman.Models.JenisKes;
+using Iguaman.Models.JKM;
 using Iguaman.Models.Kategori;
 using Iguaman.Models.KhidmatNasihat;
 using Iguaman.Models.Negeri;
 using Iguaman.Models.Pengguna;
+using Iguaman.Models.Penjara;
 using Iguaman.Models.Peranan;
 using Iguaman.Models.TemuJanji;
 using Microsoft.AspNetCore.Identity;
@@ -28,6 +30,8 @@ namespace Iguaman.Repositories
         public DbSet<Negeri> Negeris { get; set; }
         public DbSet<CawanganJBG> Cawangans { get; set; }
         public DbSet<Peranan> Peranans { get; set; }
+        public DbSet<Penjara> Penjaras { get; set; }
+        public DbSet<JKM> JKMs { get; set; }
 
 
         protected override void OnModelCreating(ModelBuilder builder)
