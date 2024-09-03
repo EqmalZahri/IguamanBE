@@ -1,0 +1,6 @@
+@Iguaman_HostAddress = http://localhost:5081
+
+GET {{Iguaman_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
