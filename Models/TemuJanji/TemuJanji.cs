@@ -12,6 +12,9 @@
         public string CiptaOleh { get; set; }
         public DateTime TarikhKemaskini { get; set; }
         public string KemaskiniOleh { get; set; }
+
         public Guid IdKhidmatNasihat { get; set; }
+        public Guid CawanganJBG { get; set; }
+        public Guid IdPegawaiKN { get; set; }
     }
 }

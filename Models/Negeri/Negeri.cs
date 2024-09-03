@@ -4,5 +4,6 @@
     {
         public Guid Id { get; set; } = Guid.NewGuid();
         public string NamaNegeri { get; set; }
+        public string KodNegeri { get; set; }
     }
 }
